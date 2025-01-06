@@ -70,3 +70,22 @@ button:hover {
 #download-btn:hover {
     background-color: #0056b3;
 }
+  /*responsive*/
+  @media(max-width: 700px){
+    .container input{
+      width: 100%;
+      text-align: center;
+  }
+  }
+  @media(max-width: 400px){
+    .container input{
+      width: 100%;
+      text-align: center;
+  }
+}
+  @media(max-width: 200px){
+    .container input{
+      width: 50%;
+      text-align: center;
+  }
+  }
